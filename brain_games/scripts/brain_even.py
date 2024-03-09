@@ -31,3 +31,5 @@ def even_num():
             break
 
         stage = stage + 1
+
+even_num()
