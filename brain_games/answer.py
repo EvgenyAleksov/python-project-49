@@ -1,10 +1,5 @@
 def answer(name, task):
-    if task == 'even':
-        from brain_games.scripts.tasks.even import task
-    elif task == 'calc':
-        from brain_games.scripts.tasks.calc import task
-    elif task == 'gcd':
-        from brain_games.scripts.tasks.gcd import task
+    from brain_games.scripts.tasks.task import task
 
     stage = 1
     while stage <= 3:
