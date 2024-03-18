@@ -1,5 +1,12 @@
 def answer(name, task):
-    from brain_games.scripts.tasks.task import task
+    if task == 'even':
+        from brain_games.scripts.tasks.even import task
+    if task == 'calc':
+        from brain_games.scripts.tasks.calc import task
+    if task == 'even':
+        from brain_games.scripts.tasks.gcd import task
+    if task == 'progression':
+        from brain_games.scripts.tasks.progression import task
 
     stage = 1
     while stage <= 3:

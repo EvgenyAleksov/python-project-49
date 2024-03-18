@@ -18,3 +18,8 @@ Step 6
 Step 7
 
 [![asciicast](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35.svg)](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35)
+
+
+Step 8
+
+[![asciicast](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ.svg)](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ)
