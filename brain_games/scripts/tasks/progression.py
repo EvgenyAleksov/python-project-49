@@ -18,5 +18,5 @@ def task():
     for i in progr:
         res = res + str(i) + ' '
 
-    print('Question: ', res)
+    print('Question:', res)
     return str(hide)

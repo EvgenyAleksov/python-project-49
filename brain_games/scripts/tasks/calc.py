@@ -15,5 +15,5 @@ def task():
     else:
         correct_answer = x * y
 
-    print('Question: ', x, op, y)
+    print('Question:', x, op, y)
     return str(correct_answer)

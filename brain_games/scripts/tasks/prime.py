@@ -12,5 +12,5 @@ def task():
             correct_answer = 'no'
         i = i + 1
 
-    print('Question: ', x)
+    print('Question:', x)
     return correct_answer
