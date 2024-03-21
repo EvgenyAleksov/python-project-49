@@ -5,5 +5,5 @@ def greeting():
         print('May I have your name? ', end='')
         name = input()
 
-    print('Hello, ' + name + '!')
+    print(f'Hello, {name}!')
     return name

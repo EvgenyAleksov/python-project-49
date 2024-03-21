@@ -11,4 +11,4 @@ def main():
         if answer(name, task()) is False:
             break
         elif i == 3:
-            print('Congratulations, ' + name + '!')
+            print(f'Congratulations, {name}!')

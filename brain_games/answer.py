@@ -7,6 +7,7 @@ def answer(name, task):
         print('Correct!')
         return True
     else:
-        print("'" + my_answer + "' is wrong answer ;(. Correct answer was '"
-              + str(correct_answer) + "'.\nLet's try again, " + name + "!")
+        print(f"""'{my_answer}' is wrong answer ;(. \
+Correct answer was '{str(correct_answer)}'.
+Let's try again, {name}!""")
         return False
