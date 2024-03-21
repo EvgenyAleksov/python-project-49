@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Проект Игры разума"
+description = "brain-games"
 authors = ["Evgeny <info@tinamagic.lv>"]
 readme = "README.md"
 classifiers = ["Topic :: Software Development :: Games"]
