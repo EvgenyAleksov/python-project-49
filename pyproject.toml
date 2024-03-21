@@ -1,12 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Проект Игры разума"
 authors = ["Evgeny <info@tinamagic.lv>"]
 readme = "README.md"
+classifiers = ["Topic :: Software Development :: Games"]
+repository = "https://github.com/EvgenyAleksov/python-project-49"
+
 packages = [
   { include = "brain_games" },
 ]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
