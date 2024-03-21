@@ -13,6 +13,7 @@
 
 
 Игры:
+
 * Определение чётного числа.
 * Определение простого числа.
 * Калькулятор. Арифметические выражения, которые необходимо вычислить.
@@ -34,6 +35,7 @@ $ brain-even
 [![asciicast](https://asciinema.org/a/yziIELOXd2UKsSf2kejL6DrDi.svg)](https://asciinema.org/a/yziIELOXd2UKsSf2kejL6DrDi)
 
 
+
 Игра "Калькулятор"
 
 Показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
@@ -45,6 +47,7 @@ $ brain-calc
 Пример
 
 [![asciicast](https://asciinema.org/a/enJSpsEAVdWmwPUTWyEEcFXXT.svg)](https://asciinema.org/a/enJSpsEAVdWmwPUTWyEEcFXXT)
+
 
 
 Игра "Наибольший общий делитель (НОД)"
@@ -61,6 +64,7 @@ $ brain-gcd
 [![asciicast](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35.svg)](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35)
 
 
+
 Игра «Арифметическая прогрессия»
 
 Показывается ряд чисел, который образует арифметическую прогрессию.
@@ -74,6 +78,7 @@ $ brain-progression
 Пример
 
 [![asciicast](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ.svg)](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ)
+
 
 
 Игра «Простое ли число?»
