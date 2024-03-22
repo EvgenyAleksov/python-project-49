@@ -9,7 +9,7 @@ def engine(rule, task):
 
     for i in range(1, STAGES + 1):
         correct_answer = task()
-        my_answer = prompt.string()
+        my_answer = prompt.string('')
         print('Your answer: ', my_answer)
 
         if my_answer == correct_answer:

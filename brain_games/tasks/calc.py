@@ -1,5 +1,15 @@
 import random
 from random import choice
+import operator
+
+
+def get_op(op):
+    get_op = {
+        '+': operator.add,
+        '-': operator.sub,
+        '*': operator.mul
+    }.get
+    return get_op(op)
 
 
 def calculate():
@@ -8,12 +18,5 @@ def calculate():
     y = random.randrange(0, 100)
     op = choice(sign)
 
-    if op == '+':
-        correct_answer = x + y
-    elif op == '-':
-        correct_answer = x - y
-    else:
-        correct_answer = x * y
-
     print(f'Question: {x} {op} {y}')
-    return str(correct_answer)
+    return str(get_op(op)(x, y))
