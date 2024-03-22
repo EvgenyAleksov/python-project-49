@@ -1,7 +1,7 @@
 import random
 
 
-def task():
+def calculate():
     begin = random.randrange(1, 30)
     step = random.randrange(1, 20)
     length = random.randrange(5, 12)

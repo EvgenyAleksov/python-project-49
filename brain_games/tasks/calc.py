@@ -2,7 +2,7 @@ import random
 from random import choice
 
 
-def task():
+def calculate():
     sign = ['+', '-', '*']
     x = random.randrange(0, 100)
     y = random.randrange(0, 100)
@@ -15,5 +15,5 @@ def task():
     else:
         correct_answer = x * y
 
-    print('Question:', x, op, y)
+    print(f'Question: {x} {op} {y}')
     return str(correct_answer)

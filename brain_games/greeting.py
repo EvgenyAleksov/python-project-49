@@ -1,9 +1,8 @@
-def greeting():
-    name = ''
-    print('Welcome to the Brain Games!')
-    while name == '':
-        print('May I have your name? ', end='')
-        name = input()
+import prompt
 
+
+def greeting():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     return name

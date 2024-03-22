@@ -1,7 +1,7 @@
 import random
 
 
-def task():
+def calculate():
     x = random.randrange(2, 100)
     print(x)
 
