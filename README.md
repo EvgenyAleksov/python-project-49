@@ -18,79 +18,106 @@
 <li>Простое ли число?<br />Определение простого числа.&nbsp;</li>
 </ul>
 <p>&nbsp;</p>
+
 <p><br />Игра <strong>&laquo;Проверка на чётность&raquo;</strong></p>
 <p>Показывается случайное число.<br />Нужно ответить <strong>yes</strong>, если число чётное, и <strong>no</strong>&nbsp;- если нет.</p>
 <p><em>Запуск</em></p>
-<p>```bash</p>
-<p>$ brain-even</p>
-<p>```</p>
+
+```bash
+$ brain-even
+```
+
 <p><em>Пример</em></p>
-<p>[![asciicast](https://asciinema.org/a/yziIELOXd2UKsSf2kejL6DrDi.svg)](https://asciinema.org/a/yziIELOXd2UKsSf2kejL6DrDi)</p>
+
+[![asciicast](https://asciinema.org/a/yziIELOXd2UKsSf2kejL6DrDi.svg)](https://asciinema.org/a/yziIELOXd2UKsSf2kejL6DrDi)
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Игра <strong>"Калькулятор"</strong></p>
 <p>Показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.</p>
 <p><em>Запуск</em></p>
-<p>```bash</p>
-<p>$ brain-calc</p>
-<p>```</p>
+
+```bash
+$ brain-calc
+```
+
 <p><em>Пример</em></p>
-<p>[![asciicast](https://asciinema.org/a/enJSpsEAVdWmwPUTWyEEcFXXT.svg)](https://asciinema.org/a/enJSpsEAVdWmwPUTWyEEcFXXT)</p>
+
+[![asciicast](https://asciinema.org/a/enJSpsEAVdWmwPUTWyEEcFXXT.svg)](https://asciinema.org/a/enJSpsEAVdWmwPUTWyEEcFXXT)
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Игра <strong>"Наибольший общий делитель (НОД)"</strong></p>
 <p>Показываются два случайных числа, например, 25 и 50.<br />Нужно вычислить и ввести наибольший общий делитель этих чисел.</p>
 <p><em>Запуск</em></p>
-<p>```bash</p>
-<p>$ brain-gcd</p>
-<p>```</p>
+
+```bash
+$ brain-gcd
+```
+
 <p><em>Пример</em></p>
-<p>[![asciicast](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35.svg)](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35)</p>
+
+[![asciicast](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35.svg)](https://asciinema.org/a/Sn307pUZ00jLQeHPggeu3EO35)
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Игра <strong>&laquo;Арифметическая прогрессия&raquo;</strong></p>
 <p>Показывается ряд чисел, который образует арифметическую прогрессию.<br />Одно (любое) из чисел заменено двумя точками.<br />Нужно определить это число.</p>
 <p><em>Запуск</em></p>
-<p>```bash</p>
-<p>$ brain-progression</p>
-<p><em><strong></strong></em>```</p>
+
+```bash
+$ brain-progression
+```
+
 <p><em>Пример</em></p>
-<p>[![asciicast](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ.svg)](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ)</p>
+
+[![asciicast](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ.svg)](https://asciinema.org/a/W0I29PozhRv6HxO2LpeaUGnxZ)
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Игра <strong>&laquo;Простое ли число?&raquo;</strong></p>
 <p>Показывается случайное число.<br />Нужно ответить yes, если число простое, и no &mdash; если нет.</p>
 <p><em>Запуск</em></p>
-<p>```bash</p>
-<p>$ brain-prime</p>
-<p>```</p>
+
+```bash
+$ brain-prime
+```
+
 <p><em>Пример</em></p>
-<p>[![asciicast](https://asciinema.org/a/bdlqQsmKVwKcr1ib1SvpFYZuf.svg)](https://asciinema.org/a/bdlqQsmKVwKcr1ib1SvpFYZuf)</p>
+
+[![asciicast](https://asciinema.org/a/bdlqQsmKVwKcr1ib1SvpFYZuf.svg)](https://asciinema.org/a/bdlqQsmKVwKcr1ib1SvpFYZuf)
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Требования к установке</strong></p>
-<p>```bash</p>
-<ul>
-<li>Python 3.10.<br /><br /></li>
-<li>Poetry 1.8</li>
-</ul>
-<p>```</p>
+
+```bash
+* Python 3.10.
+
+* Poetry 1.8
+```
+
 <p>&nbsp;</p>
 <p><strong>Установка</strong></p>
 <p>Для запуска игр необходимо предварительно установить данный проект:<br /><br />1. Склонировать репозиторий:</p>
-<p>```bash</p>
-<p>$ https://github.com/EvgenyAleksov/python-project-49.git</p>
-<p>```</p>
-<p>&nbsp;</p>
-<p>2. Установить проект:</p>
-<p>```bash</p>
-<p>$ make package-install</p>
-<p>````</p>
+
+```bash
+$ https://github.com/EvgenyAleksov/python-project-49.git
+```
+
+<p>2. Установить проект:
+
+```bash
+$ make package-install
+````
+
 <p>&nbsp;</p>
 <p>Команды зля запуска каждой игры указаны преред примерами выше.&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Проверка кода проекта линтером&nbsp;<em>flake8</em><br /></strong></p>
-<p>```bash</p>
-<p>poetry run flake8 brain_games</p>
-<p><strong>```</strong></p>
+
+```bash</p>
+$ poetry run flake8 brain_games
+```
+
 <p>&nbsp;</p>
