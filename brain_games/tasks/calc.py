@@ -17,6 +17,4 @@ def calculate():
     x = random.randrange(0, 100)
     y = random.randrange(0, 100)
     op = choice(sign)
-
-    print(f'Question: {x} {op} {y}')
-    return str(get_op(op)(x, y))
+    return f'{x} {op} {y}', str(get_op(op)(x, y))

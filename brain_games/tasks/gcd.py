@@ -13,5 +13,4 @@ def find_gcd(x, y):
 def calculate():
     x = random.randrange(2, 100)
     y = random.randrange(2, 100)
-    print('Question:', x, y)
-    return find_gcd(x, y)
+    return f'{x} {y}', find_gcd(x, y)

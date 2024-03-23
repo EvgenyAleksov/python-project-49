@@ -25,5 +25,4 @@ def calculate():
     for i in progr:
         res = res + str(i) + ' '
 
-    print('Question:', res)
-    return str(hide)
+    return res, str(hide)

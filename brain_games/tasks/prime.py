@@ -13,5 +13,4 @@ def find_prime(x):
 
 def calculate():
     x = random.randrange(2, 100)
-    print('Question:', x)
-    return find_prime(x)
+    return x, find_prime(x)

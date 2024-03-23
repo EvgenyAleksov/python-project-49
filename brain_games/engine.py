@@ -8,9 +8,10 @@ def engine(rule, task):
     print(rule)
 
     for i in range(1, STAGES + 1):
-        correct_answer = task()
+        quest, correct_answer = task()
+        print('Question:', quest)
         my_answer = prompt.string('')
-        print('Your answer: ', my_answer)
+        print('Your answer:', my_answer)
 
         if my_answer == correct_answer:
             print('Correct!')
