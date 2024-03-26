@@ -1,7 +1,7 @@
-from brain_games.tasks.prime import calculate
-from brain_games.engine import engine
+from brain_games.games.prime import calculate
+from brain_games.engine import play
 
 
 def main():
     rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    engine(rule, calculate)
+    play(rule, calculate)

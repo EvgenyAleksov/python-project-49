@@ -1,7 +1,7 @@
-from brain_games.tasks.gcd import calculate
-from brain_games.engine import engine
+from brain_games.games.gcd import calculate
+from brain_games.engine import play
 
 
 def main():
     rule = 'Find the greatest common divisor of given numbers.'
-    engine(rule, calculate)
+    play(rule, calculate)

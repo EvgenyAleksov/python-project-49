@@ -3,12 +3,12 @@ from brain_games.greeting import greeting
 STAGES = 3
 
 
-def engine(rule, task):
+def play(rule, calculate):
     name = greeting()
     print(rule)
 
     for i in range(1, STAGES + 1):
-        quest, correct_answer = task()
+        quest, correct_answer = calculate()
         print('Question:', quest)
         my_answer = prompt.string('')
         print('Your answer:', my_answer)

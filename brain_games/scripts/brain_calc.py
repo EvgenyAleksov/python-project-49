@@ -1,7 +1,7 @@
-from brain_games.tasks.calc import calculate
-from brain_games.engine import engine
+from brain_games.games.calc import calculate
+from brain_games.engine import play
 
 
 def main():
     rule = 'What is the result of the expression?'
-    engine(rule, calculate)
+    play(rule, calculate)
