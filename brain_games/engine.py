@@ -15,7 +15,7 @@ def play(rule, calculate):
 
         if my_answer == correct_answer:
             print('Correct!')
-            if i == 3:
+            if i == STAGES:
                 print(f'Congratulations, {name}!')
         else:
             print(f"""'{my_answer}' is wrong answer ;(. \
