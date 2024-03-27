@@ -4,9 +4,9 @@ from brain_games.games.even import set_task, calculate
 from brain_games.engine import play
 
 
-def main():
+def play_even():
     play(set_task, calculate)
 
 
 if __name__ == '__main__':
-    main()
+    play_even()
