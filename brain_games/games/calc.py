@@ -2,6 +2,11 @@ import random
 from random import choice
 import operator
 
+
+def set_task():
+    return 'What is the result of the expression?'
+
+
 OPERATORS = {
     '+': operator.add,
     '-': operator.sub,
@@ -10,9 +15,8 @@ OPERATORS = {
 
 
 def calculate():
-    rule = 'What is the result of the expression?'
     sign = ['+', '-', '*']
     x = random.randrange(0, 100)
     y = random.randrange(0, 100)
     op = choice(sign)
-    return rule, f'{x} {op} {y}', str(OPERATORS[op](x, y))
+    return f'{x} {op} {y}', str(OPERATORS[op](x, y))

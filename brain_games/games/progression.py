@@ -1,6 +1,10 @@
 import random
 
 
+def set_task():
+    return 'What number is missing in the progression?'
+
+
 def gen_progr():
     begin = random.randrange(1, 20)
     step = random.randrange(1, 20)
@@ -13,12 +17,11 @@ def gen_progr():
 
 
 def calculate():
-    rule = 'What number is missing in the progression?'
     progr = gen_progr()
-    x = random.randrange(0, len(gen_progr()))
+    x = random.randrange(0, len(progr))
     hide = progr[x]
     progr[x] = '..'
     res = ''
     for i in progr:
         res = res + str(i) + ' '
-    return rule, res, str(hide)
+    return res, str(hide)

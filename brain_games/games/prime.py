@@ -1,6 +1,10 @@
 import random
 
 
+def set_task():
+    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def is_prime(x):
     correct_answer = True
     i = 2
@@ -12,6 +16,5 @@ def is_prime(x):
 
 
 def calculate():
-    rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     x = random.randrange(2, 100)
-    return rule, x, 'yes' if is_prime(x) is True else 'no'
+    return x, 'yes' if is_prime(x) is True else 'no'
