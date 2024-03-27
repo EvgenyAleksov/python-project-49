@@ -11,6 +11,7 @@ def find_gcd(x, y):
 
 
 def calculate():
+    rule = 'Find the greatest common divisor of given numbers.'
     x = random.randrange(2, 100)
     y = random.randrange(2, 100)
-    return f'{x} {y}', find_gcd(x, y)
+    return rule, f'{x} {y}', find_gcd(x, y)

@@ -2,27 +2,23 @@ import random
 
 
 def gen_progr():
-    begin = random.randrange(1, 30)
+    begin = random.randrange(1, 20)
     step = random.randrange(1, 20)
-    global length
     length = random.randrange(5, 12)
     end = begin + step * length
-
-    global progr
     progr = []
     for i in range(begin, end, step):
         progr.append(i)
-
-    return length, progr
+    return progr
 
 
 def calculate():
-    gen_progr()
-    x = random.randrange(0, length)
+    rule = 'What number is missing in the progression?'
+    progr = gen_progr()
+    x = random.randrange(0, len(gen_progr()))
     hide = progr[x]
     progr[x] = '..'
     res = ''
     for i in progr:
         res = res + str(i) + ' '
-
-    return res, str(hide)
+    return rule, res, str(hide)
